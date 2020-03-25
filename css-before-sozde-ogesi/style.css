@@ -1,0 +1,15 @@
+div {
+    background: yellow;
+}
+
+.box::after {
+    content: ' sonraki yazı';
+    color: red;
+    background: blue;
+}
+
+.box::before {
+    content: 'önceki yazı ';
+    background: green;
+    color: white;
+}

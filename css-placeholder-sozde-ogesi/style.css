@@ -1,0 +1,19 @@
+/*
+::placeholder {
+    color: pink;
+}
+*/
+
+input {
+    color: red;
+}
+input::placeholder {
+    color: red;
+}
+textarea {
+    color: blue;
+}
+textarea::placeholder {
+    color: blue;
+    font-size: 20px;
+}

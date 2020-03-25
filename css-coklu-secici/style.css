@@ -1,0 +1,15 @@
+/*
+h3 {
+    color: blue;
+}
+p {
+    color: blue;
+}
+div {
+    color: blue;
+}
+*/
+
+h3, p, div, .paragraf, #test {
+    color: blue;
+}

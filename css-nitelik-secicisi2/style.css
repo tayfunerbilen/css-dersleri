@@ -1,0 +1,10 @@
+a[target="_blank"] {
+    color: green;
+}
+
+img[alt=""] {
+    background: blue;
+}
+img[width="250"] {
+    background: green;
+}

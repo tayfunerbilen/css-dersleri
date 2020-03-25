@@ -1,0 +1,11 @@
+abbr[title] {
+    color: green;
+}
+
+img[alt] {
+    background: green;
+}
+
+img[height] {
+    background: blue;
+}

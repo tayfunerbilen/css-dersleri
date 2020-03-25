@@ -1,0 +1,3 @@
+img[alt~="maskot"] {
+    background: green;
+}

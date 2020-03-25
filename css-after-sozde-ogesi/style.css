@@ -1,0 +1,9 @@
+div {
+    background: yellow;
+}
+
+.box::after {
+    content: ' sonraki yazı';
+    color: red;
+    background: blue;
+}

@@ -1,0 +1,19 @@
+div {
+    background: yellow;
+}
+
+.box::after {
+    content: attr(data-sonrasi);
+    color: red;
+    background: blue;
+}
+
+.box::before {
+    content: attr(data-oncesi);
+    background: green;
+    color: white;
+}
+
+a[target="_blank"]::after {
+    content: '(' attr(href) ')';
+}

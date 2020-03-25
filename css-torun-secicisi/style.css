@@ -1,0 +1,18 @@
+/*
+div {
+
+}
+b {
+
+}
+*/
+
+/*
+div b {
+    color: red;
+}
+*/
+
+.box .bold {
+    color: blue;
+}

@@ -1,0 +1,9 @@
+h3 + p {
+    color: red;
+}
+div + p span {
+    color: green;
+}
+.box + p span {
+    color: blue;
+}
