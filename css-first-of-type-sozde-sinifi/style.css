@@ -1,0 +1,7 @@
+div:first-of-type {
+    background-color: yellow;
+}
+
+p:first-of-type {
+    background-color: red;
+}

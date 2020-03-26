@@ -1,0 +1,71 @@
+/* 3. li etiketini seçer */
+ul.ornek1 li:nth-child(3) {
+    background-color: lime;
+}
+
+/* li etiketlerinde tek olanları seçer */
+ul.ornek2 li:nth-child(odd) {
+    background-color: magenta;
+}
+
+/* li etiketlerinde çift olanları seçer */
+ul.ornek2 li:nth-child(even) {
+    background-color: maroon;
+}
+
+/*
+    3 li etiketinde bir seçer
+    formül: (3x1) (3x2) (3x3) ... n
+*/
+ul.ornek3 li:nth-child(3n) {
+    background-color: mediumslateblue;
+}
+
+/*
+    3 li etiketinde bir seçer ancak başlangıç olarak 2. etiketten başlar
+    formül:
+        (3x0) + 2
+        (3x1) + 2
+        (3x2) + 2
+        ... n
+*/
+ul.ornek4 li:nth-child(3n+2){
+    background-color: olive;
+}
+
+/*
+    4. li etiketide dahil olmak üzere sonraki tüm li etiketlerini seçer
+    formül: (0+4) (1+4) (2+4) (3+4) ... n
+*/
+ul.ornek5 li:nth-child(n+4){
+    background-color: peru;
+}
+
+/*
+    8. li etiketide dahil olmak üzere önceki tüm li etiketlerini seçer
+    formül: (0+8) (-1+8) (-2+8) (-3+8) ... n
+*/
+ul.ornek6 li:nth-child(-n+8){
+    background-color: powderblue;
+}
+
+/*
+    4 ve 8 arası seçer
+*/
+ul.ornek7 li:nth-child(n+4):nth-child(-n+8) {
+    background-color: salmon;
+}
+
+/*
+    4 ve 8 arası sadece tek olanları seçer
+*/
+ul.ornek8 li:nth-child(n+4):nth-child(odd):nth-child(-n+8) {
+    background-color: slateblue;
+}
+
+/*
+    4 ve 8 arası sadece çift olanları seçer
+*/
+ul.ornek9 li:nth-child(n+4):nth-child(even):nth-child(-n+8) {
+    background-color: wheat;
+}

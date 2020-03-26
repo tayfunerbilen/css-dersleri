@@ -1,0 +1,11 @@
+ul li:last-child {
+    background-color: yellow;
+}
+
+ul:last-child {
+    background-color: red;
+}
+
+p:last-child {
+    background-color: blue;
+}

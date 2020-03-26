@@ -1,0 +1,6 @@
+div:last-of-type {
+    background-color: yellow;
+}
+p:last-of-type {
+    background-color: lime;
+}
